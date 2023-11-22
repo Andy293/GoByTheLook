@@ -8,14 +8,23 @@
     width: 100%;
     margin: auto;
  }
- 
+ .container2{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+ }
  header{
     background-color: #0097B2;
     height: 100px;
     padding-top: 20px;
  }
 
+ #logo{
+   margin-top: 2%;
+ }
+
  #nome{
+   margin-top: -10%;
+
    font-size: 100px;
    color: black;
    text-align: center;
@@ -23,7 +32,7 @@
 
  #destaque{
     background-color: #FF9244;
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: center;
     font-size: 30px;
     }
@@ -41,14 +50,17 @@
       }
 
 #corpo1{
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
+
+
    
    display: flex;
    align-items: center;
    justify-content: center;
+
 }
 
 #corpo2{
@@ -60,6 +72,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
+
 }
 
 #corpo3{
@@ -71,19 +84,24 @@
    display: flex;
    align-items: center;
    justify-content: center;
+
 }
 
 #produtos1{
-   margin-top: 25%;
+   margin-top: 20%;
    margin-left: 2%;
    margin-right: 2%;
    margin-bottom: 5%;
+
+   max-width: max-content;
+   min-width: min-content;
   
    text-align: center;
    font-size: 30px;
    color: white;
 
-   display: flex;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
    align-items: left;
    justify-content: left;
 }
@@ -94,11 +112,15 @@
    margin-right: 2%;
    margin-bottom: 5%;
    
+   max-width: max-content;
+   min-width: min-content;
+
    text-align: center;
    font-size: 30px;
    color: white;
 
-   display: flex;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
    align-items: left;
    justify-content: left;
 }
@@ -108,12 +130,150 @@
    margin-left: 2%;
    margin-right: 2%;
    margin-bottom: 5%;
+
+   max-width: max-content;
+   min-width: min-content;
    
    text-align: center;
    font-size: 30px;
    color: white;
 
-   display: flex;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: left;
+   justify-content: left;
+}
+
+#marca1{
+   margin-top: 20%;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 5%;
+
+   max-width: max-content;
+   min-width: min-content;
+
+   text-align: left;
+   font-size: 30px;
+   color: white;
+
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: center;
+   justify-content: center;
+
+}
+
+#marca2{
+   margin-top: 5%;   
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 5%;
+
+   max-width: max-content;
+   min-width: min-content;
+   
+   text-align: left;
+   font-size: 30px;
+   color: white;
+
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: center;
+   justify-content: center;
+}
+
+#marca3{
+   margin-top: 5%;   
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 5%;
+
+   max-width: max-content;
+   min-width: min-content;
+   
+   text-align: left;
+   font-size: 30px;
+   color: white;
+
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: center;
+   justify-content: center;
+}
+
+#redessociais{
+   margin-top: 20%;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 5%;
+
+   max-width: max-content;
+   min-width: min-content;
+  
+   text-align: center;
+   font-size: 30px;
+   color: white;
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: left;
+   justify-content: left;
+}
+
+#sobre1{
+   margin-top: 15%;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 5%;
+
+   max-width: max-content;
+   min-width: min-content;
+  
+   text-align: center;
+   font-size: 30px;
+   color: white;
+
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: left;
+   justify-content: left;
+}
+
+#sobre2{
+   margin-top: 10%;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 5%;
+
+   max-width: max-content;
+   min-width: min-content;
+  
+   text-align: center;
+   font-size: 30px;
+   color: white;
+
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: left;
+   justify-content: left;
+}
+
+#sobre3{
+   margin-top: 10%;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 5%;
+
+   max-width: max-content;
+   min-width: min-content;
+  
+   text-align: center;
+   font-size: 30px;
+   color: white;
+
+   display: grid;
+   grid-template-columns: 1fr;
    align-items: left;
    justify-content: left;
 }
